@@ -6,9 +6,14 @@
 </head>
 <body>
 <script>
-let a= prompt('số tiền ban đầu')
-let b= prompt('số tháng cho vay')
-let c= prompt('lãi suất hàng tháng')
+let a= +prompt('số tiền ban đầu')
+let b= +prompt('số tháng cho vay')
+let c= +prompt('lãi suất hàng tháng')
+let d=0
+for (let i=1;i<=b;i++){
+    d=a/100*c
+    a=a+d;
+}document.write(a)
 </script>
 </body>
 </html>
