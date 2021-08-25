@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rwed</title>
+</head>
+<body>
+<script>
+    let a=1,b=1,c,i=0
+    for(;;){
+        c=a+b;
+        b=a;
+        a=c;
+        if (c%5===0) {
+            i++
+            document.write(c+' ');
+            if (i===5)
+            break
+        }
+    }
+</script>
+</body>
+</html>
